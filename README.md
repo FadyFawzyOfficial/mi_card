@@ -1,16 +1,25 @@
-# mi_card
+# Mi Card
 
-A new Flutter project.
+## Our Goal
+Mi Card App is for learning purpose.
+It's the 3rd App which in the 6th Section of The Complete 2021 Flutter Development Bootcamp with Dart Course (On Udemy)
 
-## Getting Started
+Now that I've seen how to create a Flutter app entirely from scratch, I'm going to go further and learn more about how to design user interfaces for Flutter apps.
 
-This project is a starting point for a Flutter application.
+## What you will create
 
-A few resources to get you started if this is your first Flutter project:
+Mi Card is a personal business card. Imagine every time I wanted to give someone my contact details or my business card but I didn't have it on me. Well, now I can get them to download my business card as an app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## What you will learn
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* How to create Stateless Widgets
+* What is the difference between hot reload and hot refresh and running an app from cold
+* How to use Containers to lay out your UI
+* How to use Columns and Rows to position your UI elements
+* How to add custom fonts
+* How to add Material icons
+* How to style Text widgets
+* How to read and use Flutter Documentation
+
+
+Flutter Version: 3.3.3
