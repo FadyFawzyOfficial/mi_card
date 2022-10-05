@@ -11,29 +11,24 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Container(
-                height: 100,
-                color: Colors.white,
-                alignment: Alignment.center,
-                child: const Text('Container 1'),
-              ),
-              Container(
-                height: 100,
-                color: Colors.red,
-                alignment: Alignment.center,
-                child: const Text('Container 2'),
-              ),
-              Container(
-                height: 100,
-                color: Colors.blue,
-                alignment: Alignment.center,
-                child: const Text('Container 3'),
-              ),
-            ],
+          child: Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: const [
+                CircleAvatar(
+                  radius: 50,
+                  foregroundImage: AssetImage('assets/images/fady.jpg'),
+                ),
+                Text(
+                  'Eng.Fady Fawzy',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 36,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
